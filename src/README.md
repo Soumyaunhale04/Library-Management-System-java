@@ -1,17 +1,23 @@
 📘 Library Management System (Java OOP Project)
 
-A simple console-based Library Management System implemented in Java, designed to demonstrate strong understanding of Object-Oriented Programming (OOP) concepts such as classes, objects, encapsulation, method overriding, and the use of TreeMap for efficient and sorted data storage.
+A simple console-based Library Management System implemented in Java, designed to demonstrate a strong understanding of Object-Oriented Programming (OOP) concepts such as classes, objects, encapsulation, method overriding, and the use of TreeMap for efficient and sorted data storage.
 
 This project is ideal for learning Java fundamentals and showcasing OOP knowledge for internship applications.
 
-🚀 Features:
+🚀 Features
 
 ✔ Add new books
+
 ✔ Issue books
+
 ✔ Return books
+
 ✔ Remove books (only if not issued)
+
 ✔ Show all books (sorted by ID automatically using TreeMap)
+
 ✔ Prevent duplicate book IDs
+
 ✔ Clean and reusable OOP architecture
 
 🧠 OOP Concepts Used
@@ -29,13 +35,13 @@ Private variables (id, title, author, isIssued)
 
 Public getters & controlled methods (issueBook(), returnBook())
 
-3. Data Structures
+3. Data Structure
 
-TreeMap<Integer, Book> → keeps books sorted by ID and provides O(log n) access.
+TreeMap<Integer, Book> → keeps books sorted by ID and gives O(log n) access
 
 4. Method Overriding
 
-Custom toString() method for clean output.
+Custom toString() for clean output
 
 🛠️ Tech Stack
 
@@ -45,8 +51,7 @@ TreeMap Collection
 
 Scanner (User Input)
 
-Runs on any JDK (8+)
-
+Works on any JDK 8 or above
 
 📂 Project Structure
 Library-Management-System-Java/
@@ -85,9 +90,9 @@ Java Basics added successfully!
 3. Run
    java Main
 
-
 👩‍💻 Author
 
 Soumya Unhale
 B.Tech CSE | Java Developer | Learning Backend
-Feel free to explore or contribute!
+
+Feel free to explore or contribute! 🚀
